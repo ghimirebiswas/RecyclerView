@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
 
         ContactsAdapter contactsAdapter=new ContactsAdapter(this,contactsList);
         RecyclerView.setAdapter(contactsAdapter);
-        RecyclerView.setLayoutManager(new GridLayoutManager(this, 2));
+        RecyclerView.setLayoutManager(new LinearLayoutManager(this));
 
 
 
